@@ -1,15 +1,3 @@
-body{
-    border : 2px solid blueviolet;
-}
-header{
-    border : 2px solid cadetblue;
-}
-main{
-    border : 2px solid darkblue;
-}
-footer{
-    border : 2px solid cadetblue;
-}
 
 .grid-container {
     display: grid;
@@ -25,32 +13,45 @@ footer{
     font-size: 30px;
 }
 
+.grid-head{
+    grid-row: 1;
+    grid-column: 1 / span 3;
+}
+
+.grid-foot{
+    grid-row: 4;
+    grid-column: 1 / span 3;
+}
+
 .grid-nav{
-    grid-row: 1 / span 5;
+    grid-row: 2 / span 2;
     grid-column: 1;
+}
+
+.grid-nav ul{
     list-style: none;
 }
 
 .grid-art{
-    grid-column: 2 / span 20;
+    text-align: center;
 }
 
 .article1 {
-    grid-row: 1;
+    grid-row: 2;
+    grid-column: 2;
 }
 
 .article2 {
     grid-row: 2;
+    grid-column: 3;
 }
 
 .article3 {
     grid-row: 3;
+    grid-column: 2;
 }
 
 .article4 {
-    grid-row: 4;
-}
-
-.article5 {
-    grid-row: 5;
+    grid-row: 3;
+    grid-column: 3;
 }
