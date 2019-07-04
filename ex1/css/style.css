@@ -1,0 +1,116 @@
+body{
+    width: 900px;
+    margin: auto;
+    background-image: url("../images/sprinkles.png");
+    font-size: 1.2em;
+}
+
+#wrapper{
+    display: grid;
+    background-color: #FCFAE1;
+    border: 1px solid #006ec9;
+    box-shadow: 0px 0px 10px #006ec9;
+    margin-top : 50px;
+    margin-bottom: 20px;
+}
+
+#wrapper > header{
+    grid-row: 1;
+    grid-column: 1/span 2;
+    border-bottom: 1px solid #006ec9;
+    text-align: right;
+    color: #006ec9;
+    font-style: italic;
+    text-transform: uppercase;
+    background-image: url("../images/orange_bleue.png");
+    background-repeat: no-repeat;
+    padding-top: 70px;
+
+}
+
+nav{
+    grid-row: 2/span 3;
+    border-right: 1px dashed #006ec9;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul li{
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#a1{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#a2{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#a2 img{
+    float: right;
+    width: 200px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#a3{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+article p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer{
+    grid-row: 5;
+    grid-column: 1/span 2;
+    background-color: #006ec9;
+    text-align: center;
+}
+
+aside{
+    position: fixed;
+    top: 80%;
+    left:0px;
+    font-size: 0.7em;
+    background-color: red;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+aside h2{
+    float: right;
+}
+
+aside img{
+    padding-top: 15px;
+    padding-right: 5px;
+    width: 25px;
+}
+
+a:hover{
+    background-color: #006ec9;
+}
