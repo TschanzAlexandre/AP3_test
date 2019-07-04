@@ -1,0 +1,56 @@
+body{
+    border : 2px solid blueviolet;
+}
+header{
+    border : 2px solid cadetblue;
+}
+main{
+    border : 2px solid darkblue;
+}
+footer{
+    border : 2px solid cadetblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #f32a5b;
+
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.grid-nav{
+    grid-row: 1 / span 5;
+    grid-column: 1;
+    list-style: none;
+}
+
+.grid-art{
+    grid-column: 2 / span 20;
+}
+
+.article1 {
+    grid-row: 1;
+}
+
+.article2 {
+    grid-row: 2;
+}
+
+.article3 {
+    grid-row: 3;
+}
+
+.article4 {
+    grid-row: 4;
+}
+
+.article5 {
+    grid-row: 5;
+}
