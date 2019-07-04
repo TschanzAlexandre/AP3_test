@@ -21,3 +21,11 @@ h1{
 }
 ```
 
+Bloc **HTML** :
+
+```html
+<div id=content>
+    text text text
+</div>
+```
+
